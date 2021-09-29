@@ -1,8 +1,12 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     .menu {
-        position: fixed;
-        margin: auto;
-        right: -2000em;
+        display: hide;
+     }
+ }
+
+ @media screen and (max-width: 1000px) {
+     #dont-show-mobile {
+         display: hide;
      }
  }
  
