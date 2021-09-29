@@ -1,4 +1,10 @@
-
+@media screen and (max-width: 700px) {
+    .menu {
+        position: fixed;
+        margin: auto;
+        right: -2000em;
+     }
+ }
  
  .menu-item,
  .menu-open-button {
