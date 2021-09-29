@@ -10,7 +10,7 @@
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  
   <title>Das Backyard Festival</title>
   <meta content="" name="Die Konzertinitiative Emsboom ist eine Initiative die lokale Festivals und Konzerte veranstaltet">
   <meta content="" name="Festival Greven Backyard Münster Konzertinitiative Emsboom Metal">
@@ -32,6 +32,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <!-- Side Menu Stylesheet -->
+  <link href="assets/css/popup.css" rel="stylesheet">
   
   
 
@@ -705,8 +709,26 @@
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Round Menu fixed-->
 
+
+  <nav class="menu" id="dont-show-mobile">
+    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+    <label class="menu-open-button" for="menu-open">
+     <span class="lines line-1"></span>
+     <span class="lines line-2"></span>
+     <span class="lines line-3"></span>
+   </label>
+ 
+    <a href="#" class="menu-item blue bi-arrow-up-short"> <i class="bi bi-arrow-up-short"></i> </a>
+    <a href="#" class="menu-item green"> <i class="bi bi-basket-fill"></i> </a>
+    <a href="#" class="menu-item red"> <i class="bi bi-facebook"></i> </a>
+    <a href="#" class="menu-item purple"> <i class="bi bi-instagram"></i> </a>
+    <a href="#" class="menu-item orange"> <i class="bi bi-card-heading"></i> </a>
+    <a href="#" class="menu-item lightblue"> <i class="bi bi-envelope-open"></i> </a>
+ </nav>
+
+  <!-- End Round Menu fixed -->
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
