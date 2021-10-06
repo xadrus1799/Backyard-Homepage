@@ -130,6 +130,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* carousel konfig */
+@media (min-width: 700px) {
+  #slideshows {
+    position: relative;
+    top: 3em;
+  }
+}
+
+@media (max-width: 750px) {
+  #slideshows {
+    position: relative;
+    top: 4em;
+  }
+}
+
+/* #slideshows {
+  position: relative;
+  top: 3em;
+
+}
+*/
 
 .carousel-item {
   /* height: 100vh; */
