@@ -141,7 +141,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 600px) {
   #slideshows {
     position: relative;
-    top: 6em;
+    top: 4em;
+    margin-bottom: 2em;
+    
   }
 }
 
