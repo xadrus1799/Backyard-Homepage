@@ -49,7 +49,7 @@
       box-shadow: 10px 5px 5px black;
       }
 
-      
+
     .blogbody {
       font-family: Arial;
       padding: 20px;
@@ -112,6 +112,16 @@
     padding: 0;
   }
 }
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.column {
+  background-color: red;
+  }
+/* Grid für die Buttons */
 
   </style>
 </head>
@@ -242,6 +252,20 @@
 
   <div class="card">
     <h3>Hier findet ihr uns!</h3>
+    <div class="wrap">
+      <div class="column">
+        test
+      </div>
+      <div class="column">
+        test
+      </div>
+      <div class="column">
+        test
+      </div>
+      <div class="column">
+        test
+      </div>
+    </div>
     <a href="https://www.facebook.com/emsboom/" class="facebook"><i class="bx bxl-facebook"></i>Facebook</a>
     <a href="https://www.instagram.com/konzertinitiative_emsboom/" class="instagram"><i class="bx bxl-instagram"></i>Instagram</a>
     <a href="https://konzertinitiative-emsboom.myspreadshop.de"><i class="bx bi-bag"></i>Merch-Shop</a>
