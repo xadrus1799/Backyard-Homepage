@@ -32,19 +32,23 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
- 
+
   <style>
     * {
       box-sizing: border-box;
     }
-    
+
     /* graue Box in Blog form */
+    #header {
+      box-shadow: 10px 5px 5px black;
+      }
+
 
     .blogbody {
       font-family: Arial;
@@ -55,40 +59,44 @@
     .imgbox {
       width: 100%;
       padding: 20px;
+      border-radius: 30px;
     }
 
-    /* zwei Kolumnen System */ 
+    /* zwei Kolumnen System */
 
     .leftcolumn {
       float: left;
       width: 75%;
     }
-    
+
     .rightcolumn {
-      float: left; 
+      float: left;
       width: 25%;
-      padding-left: 20px; 
+      padding-left: 20px;
     }
 
     /* Card  */
 
     .card {
       background-color: white;
-      padding: 20px;  
+      padding: 20px;
       margin-top: 30px;
+      box-shadow: 10px 5px 5px black;
     }
 
     .cardfirst {
       background-color: white;
-      padding: 20px;  
+      padding: 20px;
       margin-top: 100px;
+      box-shadow: 10px 5px 5px black;
     }
 
     .cardlast {
       background-color: white;
-      padding: 20px;  
+      padding: 20px;
       margin-bottom: 100px;
       margin-top: 30px;
+      box-shadow: 10px 5px 5px black;
     }
 
     row:after {
@@ -99,11 +107,21 @@
 
 /* Stacking für Smartphones */
     @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
   }
 }
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.column {
+  background-color: red;
+  }
+/* Grid für die Buttons */
 
   </style>
 </head>
@@ -151,15 +169,15 @@
     <h2>Danke für das Backyard2021!</h2>
     <h6>Mittwoch, 22. September 2021</h6>
     <img class="img-fluid imgbox" src="header/BYDanke.png">
-    <p>Danke für ein geiles Backyard Festival 2021! 
+    <p>Danke für ein geiles Backyard Festival 2021!
 
-      Als wir uns trotz Corona dazu entschieden haben, das Backyard Festival 2021 zu feiern, waren wir uns nicht darüber im Klaren wie das Festival wird! Wir sind alle super überrascht und super zufrieden damit wir es gelaufen ist und wir hoffen, ihr seht das genauso! 
-      
-      Danke an beerenweine für den super Beerenwein, für das Gewinnspiel und für die Werbung! Danke an die Jungs vom CampBurger die uns super verpflegt haben und uns das kochen abgenommen haben, an das Team vom Bierzwerg dass uns die Kühlung gestellt hat und uns mit Getränken versorgt hat und an aerental die einen super geilen Abend ermöglicht haben und natürlich an die etlichen Spender für Pavillons und für ihre Hilfskraft! 
-      
-      Außerdem natürlich ein richtig dickes shout-out zu unseren Hammer geilen Bands die trotz Corona richtig abgerissen haben und ein dickes danke an unser Publikum dass diese Stimmung mitgebracht hat! 
-      
-      Hoffentlich sehen wir uns nächstes Jahr auf dem Backyard2022 wieder! 
+      Als wir uns trotz Corona dazu entschieden haben, das Backyard Festival 2021 zu feiern, waren wir uns nicht darüber im Klaren wie das Festival wird! Wir sind alle super überrascht und super zufrieden damit wir es gelaufen ist und wir hoffen, ihr seht das genauso!
+
+      Danke an beerenweine für den super Beerenwein, für das Gewinnspiel und für die Werbung! Danke an die Jungs vom CampBurger die uns super verpflegt haben und uns das kochen abgenommen haben, an das Team vom Bierzwerg dass uns die Kühlung gestellt hat und uns mit Getränken versorgt hat und an aerental die einen super geilen Abend ermöglicht haben und natürlich an die etlichen Spender für Pavillons und für ihre Hilfskraft!
+
+      Außerdem natürlich ein richtig dickes shout-out zu unseren Hammer geilen Bands die trotz Corona richtig abgerissen haben und ein dickes danke an unser Publikum dass diese Stimmung mitgebracht hat!
+
+      Hoffentlich sehen wir uns nächstes Jahr auf dem Backyard2022 wieder!
       </p>
   </div>
   <div class="card">
@@ -167,16 +185,16 @@
     <h6>Dienstag, 31. August 2021</h6>
     <img class="img-fluid imgbox" src="assets/img/dreig.png" style="height: 35%; width: 35%">
     <p>
-      Nachdem wir mit dem Ordnungsamt der Stadt Greven über unser Hygiene Konzept gesprochen haben, haben wir nun endlich, ganz offiziell, die Genehmigung dass wir 
-      mit bis zu 500 Gästen planen dürfen. Jedoch müssen wir dabei die 3Gs berücksichtigen! 
+      Nachdem wir mit dem Ordnungsamt der Stadt Greven über unser Hygiene Konzept gesprochen haben, haben wir nun endlich, ganz offiziell, die Genehmigung dass wir
+      mit bis zu 500 Gästen planen dürfen. Jedoch müssen wir dabei die 3Gs berücksichtigen!
       <br>
-      Dies bedeutet für euch: 
+      Dies bedeutet für euch:
       <ol>
         <li>Ihr müsst genesen sein mit Nachweis</li>
         <li>Ihr müsst geimpft sein mit Nachweis</li>
         <li>Oder ihr müsst einen gültigen PCR Test vorweisen können</li>
       </ol>
-      Bei Fragen, wendet euch gerne an uns! 
+      Bei Fragen, wendet euch gerne an uns!
     </p>
   </div>
 
@@ -184,10 +202,10 @@
     <h2>BackyardFestival x Beerenweine</h2>
     <h6>Montag, 20. August 2021</h6>
     <img class="img-fluid imgbox" src="assets/img/testimonials/beerenweine.png" style="height: 60%; width: 60%">
-  <p> 
+  <p>
     Wir freuen uns mega darüber, dass wir euch nun offiziell einen neuen Sponsor für das Backyard Festival 2021 ankündigen dürfen!
     Das diesjährige Backyard Festival unterstützt Beerenweine! Aus dem Grund könnt ihr auf dem Backyard Festival dieses Jahr Met und Wein von Beerenweine erwerben und das mit Rabatt!
-    Sollten euch die Met und Weine nicht reichen, die ihr auf dem Backyard 2021 erwerben könnt, so schaut doch mal bei unseren Freunden im Online Shop vorbei! 
+    Sollten euch die Met und Weine nicht reichen, die ihr auf dem Backyard 2021 erwerben könnt, so schaut doch mal bei unseren Freunden im Online Shop vorbei!
    </p>
 <div>
   <p><a href="www.Beerenweine.eu" class="bi bi-signpost-split">Homepage</a></p>
@@ -234,6 +252,20 @@
 
   <div class="card">
     <h3>Hier findet ihr uns!</h3>
+    <div class="wrap">
+      <div class="column">
+        test
+      </div>
+      <div class="column">
+        test
+      </div>
+      <div class="column">
+        test
+      </div>
+      <div class="column">
+        test
+      </div>
+    </div>
     <a href="https://www.facebook.com/emsboom/" class="facebook"><i class="bx bxl-facebook"></i>Facebook</a>
     <a href="https://www.instagram.com/konzertinitiative_emsboom/" class="instagram"><i class="bx bxl-instagram"></i>Instagram</a>
     <a href="https://konzertinitiative-emsboom.myspreadshop.de"><i class="bx bi-bag"></i>Merch-Shop</a>
@@ -251,11 +283,11 @@
   </div>
  </div>
 </main>
- 
+
 </body>
 
 
-  
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
@@ -272,7 +304,7 @@
       </div>
     </div>
   </footer>
-  
+
   <!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -297,6 +329,6 @@
 
 
 
- 
+
 
 </html>
