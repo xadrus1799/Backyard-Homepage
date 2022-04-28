@@ -59,7 +59,7 @@ Ticket Shop Tiles
   font-weight:100;
   margin:20px 0 0 0;
   font-style:italic;
-   transform: translateX(200px);
+  transform: translateX(200px);
 }
 .tile p
 {
@@ -70,54 +70,26 @@ Ticket Shop Tiles
   transform: translateX(-200px);
   transition-delay: 0.2s;
 }
-.animate-text
-{
+.animate-text{
   opacity:0;
   transition: all 0.6s ease-in-out;
   color: black;
 }
-.tile:hover
-{
+.animate-text p{
+  font-weight: bold;
+}
+.tile:hover{
 /*   background-color:#99aeff; */
-box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:scale(1.05);
 }
 .tile:hover img
 {
   opacity: 0.2;
 }
-.tile:hover .animate-text
-{
+.tile:hover .animate-text{
   transform:translateX(0);
   opacity:1;
-}
-.dots
-{
-  position:absolute;
-  bottom:20px;
-  right:30px;
-  margin: 0 auto;
-  width:30px;
-  height:30px;
-  color:currentColor;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:space-around;
-  
-}
-
-.dots span
-{
-    width: 5px;
-    height:5px;
-    background-color: currentColor;
-    border-radius: 50%;
-    display:block;
-  opacity:0;
-  transition: transform 0.4s ease-out, opacity 0.5s ease;
-  transform: translateY(30px);
- 
 }
 
 .tile:hover span
