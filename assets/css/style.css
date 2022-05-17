@@ -22,7 +22,7 @@ Ticket Shop Tiles
   width:380px;
   height:380px;
   margin:10px;
-  background-color:#ef6603;
+  
   display:inline-block;
   background-size:cover;
   position:relative;
@@ -33,6 +33,9 @@ Ticket Shop Tiles
   color:white;
   font-family:'Roboto';
   
+}
+.tile:hover {
+  background-color: #ef6603;
 }
 .tile img
 {
