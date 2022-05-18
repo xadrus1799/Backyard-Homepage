@@ -11,23 +11,30 @@ Ticket Shop Tiles
 
 .wrap
 {
-  width:100%;
-  display:flex;
-  align-items:space-around;
-  max-width:1200px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 1200px;
+  flex-wrap: wrap;
 }
 
-/*
+
 @media (max-width: 1000px) {
   .wrap {
    flex-direction: column;
-    width:400px;
+   max-width: 300px;
+   padding-left: 10%;
   }
 }
-*/
+
 .shop-logo{
   width: auto;
   margin: 2em;
+}
+#eventbrite{
+
+}
+#instagram{
+  
 }
 
 
